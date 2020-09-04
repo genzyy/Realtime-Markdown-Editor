@@ -9,6 +9,6 @@ app.get('/',function(req,res){
     res.render('editor')
 })
 
-app.listen(5000,function(){
+app.listen(process.env.PORT,function(){
     console.log('SERVER STARTED RUNNING...')
 })
